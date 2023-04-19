@@ -6,9 +6,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.common.keys import Keys
 import time
 
+# seats are tailored for 777-300ER for two people (more planes in-dev)
 couple_seats = ['34A','34B','34J','34K','35A','35B','35J','35K','58A','58B','58J','58K','59A','59B','59J','59K']
 neighboring_chars = {'A': 'B', 'B': 'A', 'J': 'K', 'K': 'J'}
 
